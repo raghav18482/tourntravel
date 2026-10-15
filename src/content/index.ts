@@ -1,5 +1,6 @@
 import type { Locale } from "@/i18n/routing";
 import { himachalPradesh } from "./en/destinations/himachal-pradesh";
+import { jammuKashmir } from "./en/destinations/jammu-kashmir";
 import { manali } from "./en/destinations/manali";
 import { mathuraVrindavan } from "./en/destinations/mathura-vrindavan";
 import { rajasthan } from "./en/destinations/rajasthan";
@@ -14,7 +15,7 @@ const en: SiteContent = {
   home,
   destinationsPage,
   // Order here is the order on the site.
-  destinations: [uttarakhand, himachalPradesh, manali, rajasthan, mathuraVrindavan],
+  destinations: [uttarakhand, himachalPradesh, manali, jammuKashmir, rajasthan, mathuraVrindavan],
   packages: [rishikesh6DayTour],
   about,
   gallery,

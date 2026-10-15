@@ -112,6 +112,10 @@ Every photo is currently a **labelled placeholder** in `public/images/` at its e
 | `manali-atal-tunnel-sissu.jpg` | 1500 × 1000 | 3:2 | Manali page, gallery |
 | `manali-old-manali-cafes.jpg` | 1200 × 1500 | 4:5 | Manali page, gallery |
 | `manali-hadimba-temple.jpg` | 1500 × 1000 | 3:2 | Manali page, gallery |
+| `jammu-kashmir-dal-lake-shikara.jpg` | 2400 × 1350 | 16:9 | Jammu & Kashmir hero + card |
+| `jammu-kashmir-gulmarg-gondola.jpg` | 1500 × 1000 | 3:2 | Jammu & Kashmir page, gallery |
+| `jammu-kashmir-pahalgam-betaab-valley.jpg` | 1200 × 1500 | 4:5 | Jammu & Kashmir page, gallery |
+| `jammu-kashmir-vaishno-devi-katra.jpg` | 1500 × 1000 | 3:2 | Jammu & Kashmir page, gallery |
 | `mathura-vrindavan-prem-mandir.jpg` | 2400 × 1350 | 16:9 | Mathura Vrindavan hero + card |
 | `vrindavan-banke-bihari-temple.jpg` | 1200 × 1500 | 4:5 | Mathura Vrindavan page, gallery |
 | `mathura-vishram-ghat-aarti.jpg` | 1500 × 1000 | 3:2 | Mathura Vrindavan page, gallery |

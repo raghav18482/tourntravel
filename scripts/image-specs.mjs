@@ -39,6 +39,11 @@ export const imageSpecs = [
   { file: "manali-old-manali-cafes.jpg", ...PORTRAIT, usage: "Manali page, gallery", tone: "terracotta" },
   { file: "manali-hadimba-temple.jpg", ...LANDSCAPE, usage: "Manali page, gallery", tone: "teal" },
 
+  { file: "jammu-kashmir-dal-lake-shikara.jpg", ...HERO, usage: "Jammu & Kashmir hero + card", tone: "teal" },
+  { file: "jammu-kashmir-gulmarg-gondola.jpg", ...LANDSCAPE, usage: "Jammu & Kashmir page, gallery", tone: "teal" },
+  { file: "jammu-kashmir-pahalgam-betaab-valley.jpg", ...PORTRAIT, usage: "Jammu & Kashmir page, gallery", tone: "teal" },
+  { file: "jammu-kashmir-vaishno-devi-katra.jpg", ...LANDSCAPE, usage: "Jammu & Kashmir page, gallery", tone: "saffron" },
+
   { file: "mathura-vrindavan-prem-mandir.jpg", ...HERO, usage: "Mathura Vrindavan hero + card", tone: "saffron" },
   { file: "vrindavan-banke-bihari-temple.jpg", ...PORTRAIT, usage: "Mathura Vrindavan page, gallery", tone: "saffron" },
   { file: "mathura-vishram-ghat-aarti.jpg", ...LANDSCAPE, usage: "Mathura Vrindavan page, gallery", tone: "saffron" },

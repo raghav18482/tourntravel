@@ -233,5 +233,37 @@ export const imageCredits: ImageCredit[] = [
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "source": "https://commons.wikimedia.org/wiki/File:Shiv_tapkeshwar_temple.jpg"
+  },
+  {
+    "file": "jammu-kashmir-dal-lake-shikara.jpg",
+    "title": "Empty shikara on Dal Lake, Srinagar, India 2013-08-23 (flickr 9967093983).jpg",
+    "author": "Fulvio Spada from Torino, Italy",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Empty_shikara_on_Dal_Lake,_Srinagar,_India_2013-08-23_(flickr_9967093983).jpg"
+  },
+  {
+    "file": "jammu-kashmir-gulmarg-gondola.jpg",
+    "title": "Gondola up the mountain, Gulmarg.jpg",
+    "author": "Slyronit",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Gondola_up_the_mountain,_Gulmarg.jpg"
+  },
+  {
+    "file": "jammu-kashmir-pahalgam-betaab-valley.jpg",
+    "title": "Betaab Valley, Pahalgam, Kashmir.jpg",
+    "author": "ThePoeticFrame",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Betaab_Valley,_Pahalgam,_Kashmir.jpg"
+  },
+  {
+    "file": "jammu-kashmir-vaishno-devi-katra.jpg",
+    "title": "Shri Mata Vaishno Devi Bhawan, Katra Jammu & Kashmir INDIA.jpg",
+    "author": "KDhruv406",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Shri_Mata_Vaishno_Devi_Bhawan,_Katra_Jammu_&_Kashmir_INDIA.jpg"
   }
 ];

@@ -42,7 +42,7 @@ export function travelAgencySchema(): WithContext<TravelAgency> {
     image: imageUrl("homeHero"),
     logo: siteUrl("/logo.png"),
     founder: { "@type": "Person", name: site.owner },
-    areaServed: ["Uttarakhand", "Himachal Pradesh", "Rajasthan", "Uttar Pradesh"].map((name) => ({
+    areaServed: ["Uttarakhand", "Himachal Pradesh", "Jammu and Kashmir", "Rajasthan", "Uttar Pradesh"].map((name) => ({
       "@type": "State",
       name,
     })),

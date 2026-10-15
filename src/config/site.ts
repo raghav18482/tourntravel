@@ -11,7 +11,7 @@ export const site = {
   shortName: "Deepak Travel",
   owner: "Deepak Swami",
   description:
-    "Custom tour packages for Rishikesh, Uttarakhand, Himachal, Manali, Rajasthan and Mathura Vrindavan, planned personally by Deepak Swami. Enquire on WhatsApp.",
+    "Custom tour packages for Rishikesh, Uttarakhand, Himachal, Manali, Kashmir, Rajasthan and Mathura Vrindavan, planned personally by Deepak Swami. Enquire on WhatsApp.",
 
   phone: {
     display: "+91 99285 45048",

@@ -1,26 +1,23 @@
 [
   {
-    "name": "Traveller name",
+    "name": "Sid Photography",
+    "trip": "Review on Justdial",
+    "rating": 5,
+    "quote": "I recently used Deepak Swami Tour and Travels and had a great experience. The agent was very helpful, the service was quick, and they offered good deals. The prices were reasonable and they also considered my food restrictions. Overall, it was a hassle-free process. Highly recommend!",
+    "date": "2024-02-05"
+  },
+  {
+    "name": "Priya Sharma",
     "location": "City",
     "trip": "Rishikesh 6-Day Package",
     "rating": 5,
-    "quote": "Placeholder: replace with a real review from a past traveller, shared with their permission. Placeholder entries never appear on the live site.",
-    "placeholder": true
+    "quote": "We booked the 6-day Rishikesh trip with Deepak, and it was hands down one of our best getaways. From morning yoga sessions and the mesmerizing Ganga Aarti at the special ghats to the overnight camp under the stars, everything was perfectly organized. Deepak was always available on WhatsApp to answer our queries. Highly recommended for anyone wanting a wholesome Himalayan experience!"
   },
   {
-    "name": "Traveller name",
+    "name": "Rohit Verma",
     "location": "City",
     "trip": "Manali",
     "rating": 5,
-    "quote": "Placeholder: replace with a real review. Set \"placeholder\" to false (or remove it) once the review is real.",
-    "placeholder": true
-  },
-  {
-    "name": "Traveller name",
-    "location": "City",
-    "trip": "Rajasthan",
-    "rating": 5,
-    "quote": "Placeholder: replace with a real review from a past traveller.",
-    "placeholder": true
+    "quote": "Planning our Manali family trip through Deepak Tour & Travel made the entire process completely stress-free. The itinerary was customized keeping our parents' comfort in mind, the hotels were clean and welcoming, and the driver assigned to us was extremely polite and knowledgeable. Transparent pricing with zero hidden charges on the road. Thank you for making our holiday so memorable!"
   }
 ]

@@ -12,13 +12,13 @@ export const home: HomeContent = {
   seo: {
     title: "Deepak Tour & Travel | Rishikesh, Manali & Rajasthan Tours",
     description:
-      "Custom tour packages for Rishikesh, Uttarakhand, Himachal, Manali, Rajasthan and Mathura Vrindavan, planned with Deepak Swami. Enquire on WhatsApp.",
+      "Custom tour packages for Rishikesh, Uttarakhand, Himachal, Manali, Kashmir, Rajasthan and Mathura Vrindavan, planned with Deepak Swami. Enquire on WhatsApp.",
   },
   hero: {
     eyebrow: "Personal trip planning across North India",
     h1: "Tour packages planned around you, across North India",
     subheading:
-      "Custom trips to Uttarakhand, Himachal Pradesh, Manali, Rajasthan and Mathura Vrindavan, planned with Deepak Swami. Share your dates on WhatsApp and get a day-by-day plan you can tweak before you book.",
+      "Custom trips to Uttarakhand, Himachal Pradesh, Manali, Jammu & Kashmir, Rajasthan and Mathura Vrindavan, planned with Deepak Swami. Share your dates on WhatsApp and get a day-by-day plan you can tweak before you book.",
     image: "homeHero",
     points: ["Custom itineraries", "Transparent pricing", "Quick WhatsApp replies"],
   },
@@ -116,7 +116,7 @@ export const home: HomeContent = {
       {
         question: "Which destinations do you cover?",
         answer:
-          "We plan trips across Uttarakhand (including our Rishikesh package), Himachal Pradesh and Manali, Rajasthan, and Mathura Vrindavan. If you have another destination in mind, just ask us on WhatsApp.",
+          "We plan trips across Uttarakhand (including our Rishikesh package), Himachal Pradesh and Manali, Jammu & Kashmir, Rajasthan, and Mathura Vrindavan. If you have another destination in mind, just ask us on WhatsApp.",
       },
       {
         question: "How quickly will you reply?",
@@ -132,9 +132,9 @@ export const home: HomeContent = {
 
 export const destinationsPage: DestinationsPageContent = {
   seo: {
-    title: "Tour Destinations | Uttarakhand, Himachal, Rajasthan & More",
+    title: "Tour Destinations | Uttarakhand, Himachal, Kashmir & More",
     description:
-      "Explore Rishikesh and Uttarakhand, Himachal and Manali, Rajasthan, and Mathura Vrindavan, with the best places, seasons and trip lengths for each.",
+      "Explore Rishikesh and Uttarakhand, Himachal and Manali, Kashmir, Rajasthan, and Mathura Vrindavan, with the best places, seasons and trip lengths for each.",
   },
   h1: "Our Destinations",
   intro:
@@ -161,12 +161,12 @@ export const destinationsPage: DestinationsPageContent = {
     {
       question: "Which destination is best for a first trip to North India?",
       answer:
-        "If you love culture and food, Rajasthan is hard to beat. For mountains and snow, choose Himachal or Manali. For spirituality and nature together, Rishikesh and Uttarakhand are perfect, and Mathura Vrindavan is ideal for a short pilgrimage.",
+        "If you love culture and food, Rajasthan is hard to beat. For mountains and snow, choose Himachal, Manali or Kashmir. For spirituality and nature together, Rishikesh and Uttarakhand are perfect, and Mathura Vrindavan is ideal for a short pilgrimage.",
     },
     {
       question: "Can I combine two destinations in one trip?",
       answer:
-        "Yes. Popular combinations include Rishikesh with Mussoorie, Shimla with Manali, and Mathura Vrindavan with Agra or Jaipur. We'll suggest a route that keeps travel time sensible.",
+        "Yes. Popular combinations include Rishikesh with Mussoorie, Shimla with Manali, Kashmir with Vaishno Devi, and Mathura Vrindavan with Agra or Jaipur. We'll suggest a route that keeps travel time sensible.",
     },
   ],
 };
@@ -184,7 +184,7 @@ export const about: AboutContent = {
     heading: "Our story",
     paragraphs: [
       "Deepak Tour & Travel was started by Deepak Swami with a simple belief: a good trip comes from honest advice and a plan built around the people travelling, not from a one-size-fits-all package.",
-      "Today we plan trips across Uttarakhand, Himachal Pradesh, Manali, Rajasthan and Mathura Vrindavan for families, couples, friends and solo travellers. We'd love every traveller to come home and tell their friends about us, so we put the same care into every enquiry, big or small.",
+      "Today we plan trips across Uttarakhand, Himachal Pradesh, Manali, Jammu & Kashmir, Rajasthan and Mathura Vrindavan for families, couples, friends and solo travellers. We'd love every traveller to come home and tell their friends about us, so we put the same care into every enquiry, big or small.",
       "Our newest trip, the six-day Rishikesh package, brings together everything we love about the town: morning yoga, Ganga Aarti at the special ghats, hidden waterfalls and a night of camping under the stars.",
     ],
   },
@@ -233,7 +233,7 @@ export const gallery: GalleryContent = {
   seo: {
     title: "Travel Photo Gallery | Deepak Tour & Travel",
     description:
-      "Photos from Rishikesh, Manali, Himachal, Rajasthan, Uttarakhand and Mathura Vrindavan. Browse by destination and get inspired for your next trip.",
+      "Photos from Rishikesh, Manali, Himachal, Kashmir, Rajasthan, Uttarakhand and Mathura Vrindavan. Browse by destination and get inspired for your next trip.",
   },
   h1: "Travel Gallery",
   intro:
@@ -246,24 +246,28 @@ export const gallery: GalleryContent = {
     { image: "rajasthanJaisalmer", tags: ["rajasthan"] },
     { image: "uttarakhandPeaks", tags: ["uttarakhand"] },
     { image: "himachalKullu", tags: ["himachal-pradesh"] },
+    { image: "jammuKashmirDalLake", tags: ["jammu-kashmir"] },
     { image: "mathuraPremMandir", tags: ["mathura-vrindavan"] },
     { image: "rishikeshMorningYoga", tags: ["rishikesh-6-day-tour", "uttarakhand"] },
     { image: "manaliHadimba", tags: ["manali", "himachal-pradesh"] },
     { image: "rajasthanAmerFort", tags: ["rajasthan"] },
     { image: "uttarakhandNainital", tags: ["uttarakhand"] },
     { image: "himachalSpiti", tags: ["himachal-pradesh"] },
+    { image: "jammuKashmirGulmarg", tags: ["jammu-kashmir"] },
     { image: "mathuraVishramGhat", tags: ["mathura-vrindavan"] },
     { image: "rishikeshKunjapuri", tags: ["rishikesh-6-day-tour", "uttarakhand"] },
     { image: "manaliOldManali", tags: ["manali", "himachal-pradesh"] },
     { image: "rajasthanUdaipur", tags: ["rajasthan"] },
     { image: "uttarakhandLaxmanJhula", tags: ["rishikesh-6-day-tour", "uttarakhand"] },
     { image: "himachalShimla", tags: ["himachal-pradesh"] },
+    { image: "jammuKashmirPahalgam", tags: ["jammu-kashmir"] },
     { image: "vrindavanBankeBihari", tags: ["mathura-vrindavan"] },
     { image: "rishikeshNeerGarh", tags: ["rishikesh-6-day-tour", "uttarakhand"] },
     { image: "manaliAtalTunnel", tags: ["manali", "himachal-pradesh"] },
     { image: "rajasthanJodhpur", tags: ["rajasthan"] },
     { image: "uttarakhandMussoorie", tags: ["uttarakhand"] },
     { image: "himachalDharamshala", tags: ["himachal-pradesh"] },
+    { image: "jammuKashmirVaishnoDevi", tags: ["jammu-kashmir"] },
     { image: "mathuraHoli", tags: ["mathura-vrindavan"] },
     { image: "rishikeshCamping", tags: ["rishikesh-6-day-tour", "uttarakhand"] },
     { image: "rishikeshAncientTemple", tags: ["rishikesh-6-day-tour", "uttarakhand"] },

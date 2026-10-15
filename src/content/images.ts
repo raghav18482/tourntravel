@@ -28,6 +28,10 @@ import manaliSolang from "../../public/images/manali-solang-valley.jpg";
 import manaliAtalTunnel from "../../public/images/manali-atal-tunnel-sissu.jpg";
 import manaliOldManali from "../../public/images/manali-old-manali-cafes.jpg";
 import manaliHadimba from "../../public/images/manali-hadimba-temple.jpg";
+import jammuKashmirDalLake from "../../public/images/jammu-kashmir-dal-lake-shikara.jpg";
+import jammuKashmirGulmarg from "../../public/images/jammu-kashmir-gulmarg-gondola.jpg";
+import jammuKashmirPahalgam from "../../public/images/jammu-kashmir-pahalgam-betaab-valley.jpg";
+import jammuKashmirVaishnoDevi from "../../public/images/jammu-kashmir-vaishno-devi-katra.jpg";
 import mathuraPremMandir from "../../public/images/mathura-vrindavan-prem-mandir.jpg";
 import vrindavanBankeBihari from "../../public/images/vrindavan-banke-bihari-temple.jpg";
 import mathuraVishramGhat from "../../public/images/mathura-vishram-ghat-aarti.jpg";
@@ -69,6 +73,11 @@ export const images = {
   manaliAtalTunnel: { src: manaliAtalTunnel, alt: "North portal of the Atal Tunnel at Rohtang" },
   manaliOldManali: { src: manaliOldManali, alt: "Wooden bridge and guesthouses in Old Manali" },
   manaliHadimba: { src: manaliHadimba, alt: "Pagoda-style Hadimba Devi temple among deodar trees, Manali" },
+
+  jammuKashmirDalLake: { src: jammuKashmirDalLake, alt: "Wooden shikara moored among lotus leaves on Dal Lake, Srinagar, with mountains behind" },
+  jammuKashmirGulmarg: { src: jammuKashmirGulmarg, alt: "Gulmarg Gondola cable car rising over snow and pine forest" },
+  jammuKashmirPahalgam: { src: jammuKashmirPahalgam, alt: "Walking path beside the Lidder river in Betaab Valley, Pahalgam, below a snow peak" },
+  jammuKashmirVaishnoDevi: { src: jammuKashmirVaishnoDevi, alt: "Vaishno Devi Bhawan buildings on the forested Trikuta hillside above Katra" },
 
   mathuraPremMandir: { src: mathuraPremMandir, alt: "Prem Mandir in Vrindavan lit up in pink and teal at night" },
   vrindavanBankeBihari: { src: vrindavanBankeBihari, alt: "Floral chandelier at Banke Bihari Temple, Vrindavan" },

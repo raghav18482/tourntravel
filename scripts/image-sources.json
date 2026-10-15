@@ -230,5 +230,43 @@
     "page": "https://commons.wikimedia.org/wiki/File:Shiv_tapkeshwar_temple.jpg",
     "width": 4608,
     "height": 3456
+  },
+  "jammu-kashmir-dal-lake-shikara.jpg": {
+    "title": "Empty shikara on Dal Lake, Srinagar, India 2013-08-23 (flickr 9967093983).jpg",
+    "author": "Fulvio Spada from Torino, Italy",
+    "license": "CC BY-SA 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Empty_shikara_on_Dal_Lake,_Srinagar,_India_2013-08-23_(flickr_9967093983).jpg",
+    "width": 5021,
+    "height": 3394
+  },
+  "jammu-kashmir-gulmarg-gondola.jpg": {
+    "title": "Gondola up the mountain, Gulmarg.jpg",
+    "author": "Slyronit",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Gondola_up_the_mountain,_Gulmarg.jpg",
+    "width": 4857,
+    "height": 3238
+  },
+  "jammu-kashmir-pahalgam-betaab-valley.jpg": {
+    "title": "Betaab Valley, Pahalgam, Kashmir.jpg",
+    "author": "ThePoeticFrame",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Betaab_Valley,_Pahalgam,_Kashmir.jpg",
+    "width": 4096,
+    "height": 3072
+  },
+  "jammu-kashmir-vaishno-devi-katra.jpg": {
+    "title": "Shri Mata Vaishno Devi Bhawan, Katra Jammu & Kashmir INDIA.jpg",
+    "author": "KDhruv406",
+    "license": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Shri_Mata_Vaishno_Devi_Bhawan,_Katra_Jammu_&_Kashmir_INDIA.jpg",
+    "width": 8160,
+    "height": 6120,
+    "crop": {
+      "left": 0.32,
+      "top": 0.37,
+      "width": 0.42,
+      "height": 0.373
+    }
   }
 }

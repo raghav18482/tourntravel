@@ -5,6 +5,7 @@ import { getContent, getTestimonials } from "@/content";
 import { images } from "@/content/images";
 import type { HomeContent } from "@/content/types";
 import type { Locale } from "@/i18n/routing";
+import { cn } from "@/lib/utils";
 import { ButtonLink } from "../ui/Button";
 import { Icon } from "../ui/Icon";
 import { Badge, Container, Section, SectionHeading } from "../ui/layout";
@@ -132,33 +133,48 @@ export async function Testimonials({ content }: { content: HomeContent["testimon
       <Container>
         <SectionHeading id="testimonials-heading" eyebrow={content.eyebrow} title={content.heading} intro={items.length ? content.intro : undefined} />
         {items.length > 0 ? (
-          <ul className="mt-12 grid gap-5 md:grid-cols-3">
-            {items.map((item, i) => (
-              <li key={i}>
-                <Reveal delay={i * 0.08} className="h-full">
-                  <figure className="relative flex h-full flex-col rounded-3xl bg-white p-7 shadow-soft ring-1 ring-ink-900/5">
-                    {item.placeholder && (
-                      <span className="absolute right-5 top-5 rounded-full bg-terracotta-600 px-2.5 py-1 text-[0.65rem] font-bold uppercase tracking-wider text-white">
-                        {t("placeholder")}
-                      </span>
-                    )}
-                    <div className="flex text-saffron-500" role="img" aria-label={t("rating", { rating: item.rating })}>
-                      {Array.from({ length: 5 }, (_, s) => (
-                        <Icon key={s} name="star" size={18} className={s < item.rating ? "" : "opacity-25"} />
-                      ))}
-                    </div>
-                    <blockquote className="mt-4 flex-1 text-lg leading-relaxed text-ink-800">“{item.quote}”</blockquote>
-                    <figcaption className="mt-6 border-t border-ink-900/8 pt-4">
-                      <span className="block font-semibold text-ink-900">{item.name}</span>
-                      <span className="text-sm text-ink-600">
-                        {[item.trip, item.location].filter(Boolean).join(" · ")}
-                      </span>
-                    </figcaption>
-                  </figure>
-                </Reveal>
-              </li>
-            ))}
-          </ul>
+          <>
+            {/* Columns follow the number of reviews so one or two real reviews don't sit in a mostly empty row. */}
+            <ul
+              className={cn(
+                "mt-12 grid gap-5",
+                items.length === 1 && "max-w-2xl",
+                items.length === 2 && "md:grid-cols-2",
+                items.length >= 3 && "md:grid-cols-3",
+              )}
+            >
+              {items.map((item, i) => (
+                <li key={i}>
+                  <Reveal delay={i * 0.08} className="h-full">
+                    <figure className="relative flex h-full flex-col rounded-3xl bg-white p-7 shadow-soft ring-1 ring-ink-900/5">
+                      {item.placeholder && (
+                        <span className="absolute right-5 top-5 rounded-full bg-terracotta-600 px-2.5 py-1 text-[0.65rem] font-bold uppercase tracking-wider text-white">
+                          {t("placeholder")}
+                        </span>
+                      )}
+                      <div className="flex text-saffron-500" role="img" aria-label={t("rating", { rating: item.rating })}>
+                        {Array.from({ length: 5 }, (_, s) => (
+                          <Icon key={s} name="star" size={18} className={s < item.rating ? "" : "opacity-25"} />
+                        ))}
+                      </div>
+                      <blockquote className="mt-4 flex-1 text-lg leading-relaxed text-ink-800">“{item.quote}”</blockquote>
+                      <figcaption className="mt-6 border-t border-ink-900/8 pt-4">
+                        <span className="block font-semibold text-ink-900">{item.name}</span>
+                        <span className="text-sm text-ink-600">
+                          {[item.trip, item.location].filter(Boolean).join(" · ")}
+                        </span>
+                      </figcaption>
+                    </figure>
+                  </Reveal>
+                </li>
+              ))}
+            </ul>
+            <div className="mt-10 flex">
+              <ButtonLink href={site.social.justdial} variant="outline" icon="star">
+                {t("readJustdial")}
+              </ButtonLink>
+            </div>
+          </>
         ) : (
           <div className="mt-10 flex flex-col items-start gap-6 rounded-3xl bg-white p-8 shadow-soft ring-1 ring-ink-900/5 sm:flex-row sm:items-center sm:justify-between">
             <p className="max-w-xl text-lg leading-relaxed text-ink-700">{t("empty")}</p>
