@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 684 220" role="img" aria-label="Deepak Tour N Travel">
+<title>Deepak Tour N Travel</title>
+<rect width="684" height="220" fill="#F3ECDD"/>
+<g transform="translate(44 39) scale(0.625)"><g fill="none" stroke="#9C7B42" stroke-width="3" stroke-linejoin="round">
+  <path d="M58 206V64C58 42 72 30 94 28H146C168 30 182 42 182 64V206Z"/>
+  <path d="M70 132V90C70 72 92 56 120 42C148 56 170 72 170 90V132Z"/>
+  <path d="M58 52C42 48 34 58 34 76V92" stroke-width="2.4000000000000004"/>
+  <path d="M182 52C198 48 206 58 206 76V92" stroke-width="2.4000000000000004"/>
+  <path d="M102 19H138" stroke-width="1.5"/>
+  <path d="M70 171H98V179H70ZM142 171H170V179H142Z" stroke-width="1.7999999999999998"/>
+  <path d="M58 194H182" stroke-width="1.5"/>
+</g>
+<rect x="30" y="90" width="8" height="18" rx="1.5" fill="#9C7B42"/>
+<rect x="202" y="90" width="8" height="18" rx="1.5" fill="#9C7B42"/>
+<rect x="70" y="206" width="20" height="10" rx="1.5" fill="#9C7B42"/>
+<rect x="150" y="206" width="20" height="10" rx="1.5" fill="#9C7B42"/>
+<path fill="#9C7B42" d="M120 3L124.5 8.5L120 14L115.5 8.5Z"/>
+<path fill="#9C7B42" d="M120 170L125 175L120 180L115 175Z"/>
+<g transform="translate(82.8 62) scale(0.31)">
+  <path fill="#9C7B42" d="M50 40H88V200H50V194H64V46H50Z"/>
+  <path fill="#9C7B42" fill-rule="evenodd" d="M80 40H118C160 40 190 75 190 120C190 165 160 200 118 200H80Z M88 46H115C148 46 164 80 164 120C164 160 148 194 115 194H88Z"/>
+  
+</g></g>
+<path d="M228 58V162" stroke="#9C7B42" stroke-width="1"/>
+<g transform="translate(264 58.65) scale(0.5)" fill="#9C7B42"><path transform="translate(0 0)" fill-rule="evenodd" d="M0 0 L25 0 L25 100 L0 100 L0 95 L8 95 L8 5 L0 5 Z"/>
+<path transform="translate(0 0)" fill-rule="evenodd" d="M20 0H50C82 0 104 22 104 50C104 78 82 100 50 100H20ZM25 5H48C74 5 87 25 87 50C87 75 74 95 48 95H25Z"/>
+<path transform="translate(144 0)" fill-rule="evenodd" d="M0 0 L74 0 L74 24 L69 24 L69 5 L25 5 L25 47.5 L55 47.5 L55 38 L60 38 L60 62 L55 62 L55 52.5 L25 52.5 L25 95 L71 95 L71 74 L76 74 L76 100 L0 100 L0 95 L8 95 L8 5 L0 5 Z"/>
+<path transform="translate(260 0)" fill-rule="evenodd" d="M0 0 L74 0 L74 24 L69 24 L69 5 L25 5 L25 47.5 L55 47.5 L55 38 L60 38 L60 62 L55 62 L55 52.5 L25 52.5 L25 95 L71 95 L71 74 L76 74 L76 100 L0 100 L0 95 L8 95 L8 5 L0 5 Z"/>
+<path transform="translate(376 0)" fill-rule="evenodd" d="M0 0 L25 0 L25 95 L35 95 L35 100 L0 100 L0 95 L8 95 L8 5 L0 5 Z"/>
+<path transform="translate(376 0)" fill-rule="evenodd" d="M20 0H55C79 0 94 13 94 29C94 45 79 58 55 58H20ZM25 5H52C69 5 77 16 77 29C77 42 69 53 52 53H25Z"/>
+<path transform="translate(506 0)" fill-rule="evenodd" d="M42 0 L55 0 L88 95 L71 95 Z"/>
+<path transform="translate(506 0)" fill-rule="evenodd" d="M42 0 L47 0 L14.5 95 L9.5 95 Z"/>
+<path transform="translate(506 0)" fill-rule="evenodd" d="M24 62 L62 62 L63.5 67 L22.5 67 Z"/>
+<path transform="translate(506 0)" fill-rule="evenodd" d="M0 95 L26 95 L26 100 L0 100 Z"/>
+<path transform="translate(506 0)" fill-rule="evenodd" d="M62 95 L98 95 L98 100 L62 100 Z"/>
+<path transform="translate(640 0)" fill-rule="evenodd" d="M0 0 L33 0 L33 5 L25 5 L25 95 L33 95 L33 100 L0 100 L0 95 L8 95 L8 5 L0 5 Z"/>
+<path transform="translate(640 0)" fill-rule="evenodd" d="M25 56.5 L68 5 L74.5 5 L25 63.5 Z"/>
+<path transform="translate(640 0)" fill-rule="evenodd" d="M58 0 L86 0 L86 5 L58 5 Z"/>
+<path transform="translate(640 0)" fill-rule="evenodd" d="M35 46 L47 37 L94 95 L76 95 Z"/>
+<path transform="translate(640 0)" fill-rule="evenodd" d="M70 95 L102 95 L102 100 L70 100 Z"/></g>
+<path d="M264 130.65H438M462 130.65H636" stroke="#9C7B42" stroke-width="1" fill="none"/>
+<path fill="#9C7B42" d="M450 126.65L454 130.65L450 134.65L446 130.65Z"/>
+<g transform="translate(264 149.35) scale(0.12)" fill="none" stroke="#14120F" stroke-width="10.5"><path transform="translate(0 0)" d="M0 4.5H70M35 4.5V100"/>
+<path transform="translate(256.885 0)" d="M48 4.5A43.5 45.5 0 1 1 47.99 4.5Z"/>
+<path transform="translate(539.77 0)" d="M4.5 0V60C4.5 82 18 95.5 38 95.5C58 95.5 71.5 82 71.5 60V0"/>
+<path transform="translate(802.656 0)" d="M4.5 100V4.5H40C56 4.5 65 14 65 28C65 42 56 51.5 40 51.5H4.5M36 51.5L70 100"/>
+<path transform="translate(1267.11 0)" d="M4.5 100V4.5L73.5 95.5V0"/>
+<path transform="translate(1737.57 0)" d="M0 4.5H70M35 4.5V100"/>
+<path transform="translate(1994.46 0)" d="M4.5 100V4.5H40C56 4.5 65 14 65 28C65 42 56 51.5 40 51.5H4.5M36 51.5L70 100"/>
+<path transform="translate(2253.34 0)" d="M0 100L40 12.7L80 100M16 70H64"/>
+<path transform="translate(2520.23 0)" d="M0 0L40 87.3L80 0"/>
+<path transform="translate(2787.11 0)" d="M64 4.5H4.5V95.5H64M4.5 50H56"/>
+<path transform="translate(3038 0)" d="M4.5 0V95.5H62"/></g>
+</svg>

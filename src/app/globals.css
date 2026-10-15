@@ -1,26 +1,168 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* Off-white sandstone backgrounds */
+  --color-sand-50: #fcfaf6;
+  --color-sand-100: #f7f1e7;
+  --color-sand-200: #efe4d2;
+  --color-sand-300: #e2d1b6;
+
+  /* Warm ink for text */
+  --color-ink-900: #1d1a16;
+  --color-ink-800: #2c2722;
+  --color-ink-700: #463e36;
+  --color-ink-600: #5e554b;
+
+  /* Saffron + terracotta accents (600+ pass AA on light backgrounds) */
+  --color-saffron-100: #fbebd3;
+  --color-saffron-300: #f3c07e;
+  --color-saffron-400: #efa54b;
+  --color-saffron-500: #e3892b;
+  --color-terracotta-500: #c2562f;
+  --color-terracotta-600: #a8461f;
+  --color-terracotta-700: #8a3a1a;
+
+  /* Deep Himalayan pine for dark sections */
+  --color-pine-50: #eef6f4;
+  --color-pine-100: #ddedea;
+  --color-pine-700: #176460;
+  --color-pine-800: #12504d;
+  --color-pine-900: #0e3b3a;
+  --color-pine-950: #082827;
+
+  /* WhatsApp CTA green, darkened for 5:1 contrast with white text */
+  --color-wa-600: #0e7a55;
+  --color-wa-700: #0b6646;
+
+  --font-display: var(--font-fraunces), ui-serif, Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-manrope), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --shadow-soft: 0 1px 2px rgb(29 26 22 / 0.05), 0 12px 32px -12px rgb(29 26 22 / 0.18);
+  --shadow-lift: 0 2px 4px rgb(29 26 22 / 0.06), 0 24px 48px -16px rgb(29 26 22 / 0.3);
+
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-padding-top: 5rem;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+
+  body {
+    background-color: var(--color-sand-50);
+    color: var(--color-ink-900);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+    letter-spacing: -0.015em;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--color-terracotta-600);
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+
+  .on-dark :focus-visible {
+    outline-color: var(--color-saffron-400);
+  }
+
+  ::selection {
+    background: var(--color-saffron-100);
+    color: var(--color-ink-900);
+  }
+
+  summary {
+    list-style: none;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  dialog::backdrop {
+    background: rgb(8 40 39 / 0.92);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    ::before,
+    ::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Scroll-driven reveal for <Reveal>: no JavaScript. Browsers without scroll
+   timelines, and visitors who prefer reduced motion, see content immediately. */
+@keyframes reveal-in {
+  from {
+    opacity: 0;
+    transform: translateY(1.5rem);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    [data-reveal] {
+      animation: reveal-in linear both;
+      animation-timeline: view();
+      animation-range: entry var(--reveal-offset, 0px) entry calc(var(--reveal-offset, 0px) + 200px);
+    }
+  }
+}
+
+@utility skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -4rem;
+  z-index: 100;
+  border-radius: 9999px;
+  background: var(--color-ink-900);
+  color: var(--color-sand-50);
+  padding: 0.75rem 1.25rem;
+  font-weight: 700;
+  transition: top 150ms;
+
+  &:focus {
+    top: 1rem;
+  }
+}
+
+@utility prose-copy {
+  color: var(--color-ink-700);
+  font-size: 1.0625rem;
+  line-height: 1.8;
+
+  & > * + * {
+    margin-top: 1.1em;
+  }
+}
+
+@utility pb-safe {
+  padding-bottom: env(safe-area-inset-bottom);
 }

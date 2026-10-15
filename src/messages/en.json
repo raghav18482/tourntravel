@@ -1,0 +1,218 @@
+{
+  "Common": {
+    "home": "Home",
+    "breadcrumb": "Breadcrumb",
+    "skipToContent": "Skip to content",
+    "planOnWhatsApp": "Plan My Trip on WhatsApp",
+    "callNow": "Call Now",
+    "call": "Call",
+    "callNumber": "Call {phone}",
+    "whatsApp": "WhatsApp",
+    "chatOnWhatsApp": "Chat on WhatsApp",
+    "enquireOnWhatsApp": "Enquire on WhatsApp",
+    "enquire": "Enquire",
+    "enquireAbout": "Enquire about {trip} on WhatsApp",
+    "exploreShort": "Explore",
+    "viewPackage": "View the 6-day plan",
+    "viewGallery": "View gallery",
+    "viewAllDestinations": "View all destinations",
+    "planCustomTrip": "Plan a custom trip",
+    "followInstagram": "Follow on Instagram",
+    "viewOnInstagram": "{photo}, view on Instagram",
+    "cardEnquiry": "Hi Deepak! I’m interested in {trip}. Could you share the details?",
+    "generalEnquiry": "Hi Deepak! I’d like help planning a trip."
+  },
+  "Nav": {
+    "mainNav": "Main",
+    "home": "Home",
+    "destinations": "Destinations",
+    "allDestinations": "All destinations",
+    "rishikesh": "Rishikesh Package",
+    "new": "New",
+    "gallery": "Gallery",
+    "about": "About",
+    "contact": "Contact",
+    "feedback": "Feedback",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "Footer": {
+    "about": "Custom trips to Rishikesh, Uttarakhand, Himachal, Manali, Rajasthan and Mathura Vrindavan, planned personally and confirmed on WhatsApp.",
+    "social": "Social links",
+    "instagram": "Deepak Tour & Travel on Instagram",
+    "facebook": "Deepak Swami on Facebook",
+    "justdial": "Justdial reviews",
+    "company": "Company",
+    "privacy": "Privacy policy",
+    "contact": "Contact",
+    "copyright": "© {year} {name}. All rights reserved.",
+    "owner": "Owned and run by {owner}"
+  },
+  "Trust": {
+    "justdialRated": "Rated {rating}★ on Justdial ({count} reviews)",
+    "justdialReviews": "Read our reviews on Justdial",
+    "happyTravellers": "{count}+ happy travellers",
+    "yearsExperience": "{years}+ years of experience",
+    "followInstagram": "Follow on Instagram"
+  },
+  "Testimonials": {
+    "placeholder": "Placeholder",
+    "rating": "Rated {rating} out of 5",
+    "empty": "We’re collecting reviews from our travellers. Meanwhile, read what people say about us on Justdial, or share your own experience if you’ve travelled with us.",
+    "readJustdial": "Read Justdial reviews",
+    "shareFeedback": "Share your feedback"
+  },
+  "Home": {
+    "destinationsCta": "View all destinations"
+  },
+  "Destination": {
+    "introEyebrow": "Travel guide",
+    "aboutHeading": "Planning a {name} trip",
+    "highlightsLabel": "Highlights",
+    "galleryLabel": "Photos of {name}",
+    "placesEyebrow": "Where to go",
+    "topPlaces": "Top places to visit in {name}",
+    "seasonEyebrow": "When to go",
+    "bestTime": "Best time to visit {name}",
+    "recommended": "Best time",
+    "durationsEyebrow": "How long to stay",
+    "durations": "Suggested {name} trip durations",
+    "durationsIntro": "Sample routes to start from. We tailor every itinerary to your dates, pace and budget.",
+    "seePackage": "See the full 6-day package",
+    "faqHeading": "{name} travel FAQs",
+    "relatedEyebrow": "Keep exploring",
+    "relatedHeading": "You might also like",
+    "packageEyebrow": "Newly launched",
+    "packageHeading": "Our 6-day Rishikesh package",
+    "packageBody": "Daily yoga, Ganga Aarti at the special ghats, waterfalls, a trek with camping and the hidden side of Rishikesh.",
+    "ctaHeading": "Plan your {name} trip",
+    "ctaBody": "Share your dates and who’s travelling. We’ll send a day-by-day {name} plan on WhatsApp."
+  },
+  "Destinations": {
+    "eyebrow": "Plan your trip"
+  },
+  "Package": {
+    "factsHeading": "Price and trip details",
+    "priceLabel": "Price",
+    "startingFrom": "Starting from",
+    "noPayment": "No payment needed to enquire.",
+    "overviewEyebrow": "Overview",
+    "overviewHeading": "Six days of calm and adventure",
+    "itineraryEyebrow": "Day by day",
+    "itineraryHeading": "Your 6-day Rishikesh itinerary",
+    "itineraryIntro": "Our recommended flow. We adjust days for weather, river levels and your interests.",
+    "day": "Day {day}",
+    "expandAll": "Show all days",
+    "collapseAll": "Collapse all",
+    "inclusionsHeading": "What’s included",
+    "addOnsHeading": "Add-ons",
+    "exclusionsHeading": "Not included",
+    "carryHeading": "Things to carry",
+    "faqHeading": "Rishikesh package FAQs",
+    "formEyebrow": "Reserve your spot",
+    "formHeading": "Enquire about the Rishikesh package",
+    "formIntro": "Tell us your dates and group size. We’ll confirm availability and the final price on WhatsApp.",
+    "ctaHeading": "Ready for Rishikesh?",
+    "ctaBody": "Message us your dates and we’ll confirm availability, stays and the final price on WhatsApp.",
+    "relatedHeading": "More in Uttarakhand"
+  },
+  "About": {
+    "ownerPhotoNote": "Photo of Deepak Swami",
+    "experience": "{years}+ years planning trips",
+    "ctaHeading": "Let’s plan your trip together",
+    "ctaBody": "Tell us where you’d like to go. Deepak will reply on WhatsApp with ideas and a clear quote."
+  },
+  "Contact": {
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "address": "Office",
+    "social": "Follow us",
+    "mapLoad": "Show map",
+    "mapNote": "The map loads from Google Maps when you tap the button.",
+    "mapOpen": "Open in Google Maps",
+    "mapTitle": "Map showing the Deepak Tour & Travel office",
+    "addressPending": "Office address coming soon. Call or WhatsApp us for directions.",
+    "instagram": "Instagram",
+    "facebook": "Facebook"
+  },
+  "Feedback": {
+    "reviewHeading": "Leave a public review",
+    "reviewButton": "Review us on Justdial"
+  },
+  "Forms": {
+    "required": "(required)",
+    "optional": "(optional)",
+    "name": "Your name",
+    "phone": "Phone / WhatsApp number",
+    "phoneHint": "10-digit Indian mobile number",
+    "email": "Email",
+    "trip": "Destination or package",
+    "tripTaken": "Trip you took",
+    "tripPlaceholder": "Choose one",
+    "customTrip": "Custom trip / not sure yet",
+    "date": "Travel date",
+    "travellers": "Number of travellers",
+    "budget": "Budget per person",
+    "budgetPlaceholder": "Choose a range",
+    "budgets": {
+      "b1": "Under ₹10,000",
+      "b2": "₹10,000 – ₹20,000",
+      "b3": "₹20,000 – ₹40,000",
+      "b4": "Above ₹40,000"
+    },
+    "message": "Anything else we should know?",
+    "messagePlaceholder": "Preferred stays, special occasions, travelling with kids or elderly parents…",
+    "submitEnquiry": "Send enquiry on WhatsApp",
+    "submitFeedback": "Send feedback on WhatsApp",
+    "submitNote": "Opens WhatsApp with your details filled in. Just tap Send.",
+    "rating": "Your rating",
+    "stars": "{count, plural, one {# star} other {# stars}}",
+    "feedback": "Your feedback",
+    "feedbackPlaceholder": "What did you enjoy? What could we do better?",
+    "publish": "You may publish my feedback on your website (first name and trip only).",
+    "errors": {
+      "required": "Please fill in this field.",
+      "nameTooShort": "Please enter your full name.",
+      "invalidPhone": "Please enter a valid 10-digit Indian mobile number.",
+      "invalidEmail": "Please enter a valid email address.",
+      "pastDate": "Please choose a date in the future.",
+      "invalidTravellers": "Please enter a number between 1 and 99.",
+      "ratingRequired": "Please choose a rating.",
+      "messageTooShort": "Please write a little more (at least 10 characters)."
+    },
+    "thanks": {
+      "title": "Almost done: tap Send in WhatsApp",
+      "body": "WhatsApp has opened with your enquiry ready to go. Tap <strong>Send</strong> to deliver it to us, and we’ll reply with a plan.",
+      "blocked": "Your browser blocked the new tab. Use the button below to open WhatsApp.",
+      "openWhatsApp": "Open WhatsApp",
+      "call": "Or call us",
+      "again": "Send another enquiry"
+    },
+    "feedbackThanks": {
+      "title": "Thank you! Tap Send in WhatsApp",
+      "body": "Your feedback is ready in WhatsApp. Tap <strong>Send</strong> to share it with us.",
+      "review": "Also review us on Justdial"
+    }
+  },
+  "Gallery": {
+    "all": "All",
+    "rishikesh": "Rishikesh",
+    "filterBy": "Filter photos by destination",
+    "showing": "Showing {count} photos",
+    "open": "Open photo: {photo}",
+    "close": "Close",
+    "previous": "Previous photo",
+    "next": "Next photo",
+    "position": "{current} of {total}"
+  },
+  "NotFound": {
+    "title": "This page took a wrong turn",
+    "body": "We couldn’t find the page you were looking for. Try one of our destinations below, or message us and we’ll help you plan.",
+    "home": "Back to home",
+    "seoTitle": "Page not found | Deepak Tour & Travel"
+  },
+  "Privacy": {
+    "updated": "Last updated: {date}"
+  }
+}

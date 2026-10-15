@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Traveller name",
+    "location": "City",
+    "trip": "Rishikesh 6-Day Package",
+    "rating": 5,
+    "quote": "Placeholder: replace with a real review from a past traveller, shared with their permission. Placeholder entries never appear on the live site.",
+    "placeholder": true
+  },
+  {
+    "name": "Traveller name",
+    "location": "City",
+    "trip": "Manali",
+    "rating": 5,
+    "quote": "Placeholder: replace with a real review. Set \"placeholder\" to false (or remove it) once the review is real.",
+    "placeholder": true
+  },
+  {
+    "name": "Traveller name",
+    "location": "City",
+    "trip": "Rajasthan",
+    "rating": 5,
+    "quote": "Placeholder: replace with a real review from a past traveller.",
+    "placeholder": true
+  }
+]
