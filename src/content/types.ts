@@ -125,6 +125,8 @@ export type AboutContent = {
   intro: string;
   story: { heading: string; paragraphs: string[] };
   owner: { heading: string; name: string; role: string; paragraphs: string[]; image: ImageKey };
+  // Experience stats that are not numbers in site config (the years and trips come from config).
+  highlights: { icon: IconName; value: string; label: string }[];
   vehicle: { heading: string; paragraphs: string[]; photos: ImageKey[] };
   values: { heading: string; points: TrustPoint[] };
 };

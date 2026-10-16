@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import { getTranslations } from "next-intl/server";
+import { getFormatter, getTranslations } from "next-intl/server";
 import { PageIntro } from "@/components/sections/Hero";
 import { CtaBand, FeatureGrid } from "@/components/sections/shared";
 import { Breadcrumbs } from "@/components/seo/Breadcrumbs";
@@ -22,6 +22,17 @@ export default async function AboutPage({ params }: PageProps<"/[locale]/about">
   const { about } = getContent(locale);
   const t = await getTranslations("About");
   const tn = await getTranslations("Nav");
+  const format = await getFormatter();
+  // Numbers come from site config, so they stay in step with the rest of the site; unset ones are skipped.
+  const highlights = [
+    site.stats.yearsExperience
+      ? { icon: "calendar" as const, value: `${site.stats.yearsExperience}+`, label: t("statYears") }
+      : null,
+    site.stats.tripsCompleted
+      ? { icon: "route" as const, value: `${format.number(site.stats.tripsCompleted)}+`, label: t("statTrips") }
+      : null,
+    ...about.highlights,
+  ].filter((h) => h !== null);
   const portrait = images[about.owner.image];
 
   return (
@@ -66,6 +77,27 @@ export default async function AboutPage({ params }: PageProps<"/[locale]/about">
           </figure>
         </Container>
       </Section>
+
+      {highlights.length > 0 && (
+        <Section tone="dark" className="py-12 sm:py-14 lg:py-16">
+          <Container>
+            <h2 className="sr-only">{t("statsLabel")}</h2>
+            <ul className="grid grid-cols-2 gap-x-5 gap-y-9 lg:grid-cols-4 lg:gap-x-8">
+              {highlights.map((h) => (
+                <li key={h.value} className="flex flex-col items-start gap-3">
+                  <span className="flex size-11 items-center justify-center rounded-2xl bg-white/10 text-saffron-300">
+                    <Icon name={h.icon} size={22} />
+                  </span>
+                  <span className="font-display text-[1.7rem] leading-tight font-semibold text-saffron-300 sm:text-4xl">
+                    {h.value}
+                  </span>
+                  <span className="max-w-[16rem] text-sm leading-snug text-sand-100/85 sm:text-base">{h.label}</span>
+                </li>
+              ))}
+            </ul>
+          </Container>
+        </Section>
+      )}
 
       <Section tone="white" labelledBy="founder-heading">
         <Container className="max-w-4xl">

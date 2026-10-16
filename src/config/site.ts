@@ -48,9 +48,11 @@ export const site = {
   },
 
   // Trust numbers are hidden on the site until set. Never fill these with estimates.
+  // Years and trips are stated by the owner and shown as "15+" and "2,000+" (also mentioned in the About copy).
   stats: {
     happyTravellers: null as number | null, // TO CONFIRM: number of happy travellers
-    yearsExperience: null as number | null, // TO CONFIRM: years in business
+    yearsExperience: 15 as number | null,
+    tripsCompleted: 2000 as number | null,
     justdialRating: null as number | null, // TO CONFIRM: current Justdial rating, e.g. 4.8
     justdialReviewCount: null as number | null, // TO CONFIRM: Justdial review count
   },

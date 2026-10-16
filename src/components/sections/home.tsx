@@ -45,6 +45,12 @@ export async function TrustStrip() {
             {t("yearsExperience", { years: stats.yearsExperience })}
           </span>
         )}
+        {stats.tripsCompleted && (
+          <span className="inline-flex items-center gap-2">
+            <Icon name="route" size={18} className="text-terracotta-600" />
+            {t("tripsCompleted", { count: stats.tripsCompleted })}
+          </span>
+        )}
         <a
           href={site.social.instagram}
           target="_blank"

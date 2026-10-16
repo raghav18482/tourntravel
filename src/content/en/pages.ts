@@ -12,7 +12,7 @@ export const home: HomeContent = {
   seo: {
     title: "Deepak Tour & Travel | Rishikesh, Manali & Rajasthan Tours",
     description:
-      "Custom tour packages for Rishikesh, Uttarakhand, Himachal, Manali, Kashmir, Rajasthan and Mathura Vrindavan, planned with Deepak Swami. Enquire on WhatsApp.",
+      "Custom tour packages for Rishikesh, Uttarakhand, Himachal, Manali, Kashmir, Rajasthan and Mathura Vrindavan, planned by Deepak Swami. Enquire on WhatsApp.",
   },
   hero: {
     eyebrow: "Personal trip planning across North India",
@@ -176,7 +176,7 @@ export const about: AboutContent = {
   seo: {
     title: "About Deepak Tour & Travel | Meet Deepak Swami",
     description:
-      "Meet Deepak Swami, founder of Deepak Tour & Travel, and see how we plan honest, personal trips to Rishikesh, the Himalaya, Rajasthan and Mathura Vrindavan.",
+      "Meet Deepak Swami, founder of Deepak Tour & Travel: 15+ years in travel and 2,000+ customer trips, from Kashmir to Kanyakumari.",
   },
   h1: "About Deepak Tour & Travel",
   intro: "A small, personal travel company that plans every trip the way we'd plan one for our own family.",
@@ -193,11 +193,16 @@ export const about: AboutContent = {
     name: "Deepak Swami",
     role: "Founder & trip planner",
     paragraphs: [
+      "Deepak has spent more than 15 years in the travel industry. He has travelled across India from Kashmir to Kanyakumari, completed all the major tirth (pilgrimage) destinations and covered more than 2,000 customer trips. That first-hand experience shapes every route, stop and piece of advice you get from him.",
       "Deepak looks after enquiries personally, from the first WhatsApp message to the moment you're home. He knows the roads, the viewpoints and the people who make a trip run smoothly, and he's always happy to talk through your plans.",
       "Have a question before you decide? Send him a message. There's no obligation, and you'll get a straight answer.",
     ],
     image: "ownerPortrait",
   },
+  highlights: [
+    { icon: "compass", value: "Pan-India", label: "Travelled from Kashmir to Kanyakumari" },
+    { icon: "sun", value: "All major tirths", label: "Pilgrimage destinations completed" },
+  ],
   // VERIFY: seating capacity, AC and whether this vehicle is owned or hired before launch.
   vehicle: {
     heading: "Travel in comfort",

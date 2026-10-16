@@ -53,6 +53,7 @@
     "justdialReviews": "Read our reviews on Justdial",
     "happyTravellers": "{count}+ happy travellers",
     "yearsExperience": "{years}+ years of experience",
+    "tripsCompleted": "{count, number}+ customer trips",
     "followInstagram": "Follow on Instagram"
   },
   "Testimonials": {
@@ -119,6 +120,9 @@
   "About": {
     "ownerPhotoNote": "Photo of Deepak Swami",
     "experience": "{years}+ years planning trips",
+    "statsLabel": "Deepak’s experience at a glance",
+    "statYears": "Years in the travel industry",
+    "statTrips": "Customer trips covered",
     "ctaHeading": "Let’s plan your trip together",
     "ctaBody": "Tell us where you’d like to go. Deepak will reply on WhatsApp with ideas and a clear quote."
   },
