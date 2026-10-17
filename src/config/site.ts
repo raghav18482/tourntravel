@@ -26,10 +26,10 @@ export const site = {
   email: null as string | null, // TO CONFIRM: business email
 
   address: {
-    streetAddress: null as string | null, // TO CONFIRM: full office address
-    locality: null as string | null, // TO CONFIRM: city (drives local SEO keywords)
-    region: null as string | null, // TO CONFIRM: state
-    postalCode: null as string | null, // TO CONFIRM: PIN code
+    streetAddress: "Gali No 1, Hanuman Hatha, Gavra Devi Floor Mill, Government Press Road, Civil Lines" as string | null, // from Justdial listing
+    locality: "Bikaner" as string | null,
+    region: "Rajasthan" as string | null,
+    postalCode: "334001" as string | null,
     country: "IN",
   },
   geo: null as { latitude: number; longitude: number } | null, // TO CONFIRM: office coordinates
@@ -38,7 +38,9 @@ export const site = {
 
   // Leave empty until confirmed; schema.org openingHours is omitted while empty.
   // Example: [{ days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], opens: "09:00", closes: "20:00" }]
-  openingHours: [] as { days: Weekday[]; opens: string; closes: string }[], // TO CONFIRM: office hours
+  openingHours: [
+    { days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], opens: "00:00", closes: "23:59" }, // open 24 hours per Justdial
+  ] as { days: Weekday[]; opens: string; closes: string }[],
 
   social: {
     instagram: "https://www.instagram.com/deepakswamitourand/", // TO CONFIRM: verify Instagram handle
